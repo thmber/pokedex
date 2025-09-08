@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="backgrounds.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style-mobiles.css">
+    <link rel="stylesheet" href="./start-screen.css">
+    <script src="script.js"></script>
+    <script src="templates.js"></script>
+    <script src="basic-functions.js"></script>
+    <script src="template-functions.js"></script>
+    <link rel="icon" href="./img/pokeball.png">
+</head>
+
+<body onload="loadPokemons(loadStart, loadEnd), showStartScreen()" id="body" class="bg">
+    <div class="start-screen" id="start-screen">
+    </div>
+    <div class="header-box">
+        <div class="header-maxwidth">
+            <div class="header-left">
+                <div class="logo">
+                    Pokedex
+                </div>
+                <div class="ball-box-header">
+                    <img src="./img/pokeball.png" alt="" id="header-ball">
+                </div>
+            </div>
+            <div class="header-right-and-middle" id="burger-content">
+                <div class="header-middle">
+                    <div class="loaded-box">
+                        <div class="loaded-message">
+                            <div>loaded:</div>
+                            <div class="number-loaded" id="loaded-number">0</div>
+                        </div>
+                    </div>
+                    <div class="type-header" id="type-header">
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="search" id="search-box-name">
+                        <div class="search-input">
+                            <form action="">
+                                <input required id="search-input" maxlength="8" type="text" placeholder=" search name"
+                                    onkeyup="searchByName()">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="about" id="about-header" onclick="toggleImprint('flex')">
+                        ?
+                    </div>
+                </div>
+            </div>
+            <div class="star-header" onclick="switchToLikedModus()" id="star-header">
+                <img src="img/star_header.png" id="star-image-header" alt="">
+            </div>
+            <div class="burger-menu" onclick="showBurgerMenu()" id="burger-menu">
+                <div class="line-1" id="line-1"></div>
+                <div class="line-2" id="line-2"></div>
+                <div class="line-3" id="line-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-box">
+        <div class="main-container" id="content">
+        </div>
+    </div>
+    <div class="load-more-box" id="load-more-box">
+    </div>
+    <div class="main-closeup-box d-none" id="main-closeup">
+        <div class="closeup-main" id="closeup-main-content" onclick="backToSmallCards()">
+        </div>
+    </div>
+    <div class="about-box" id="about-box" onclick="toggleImprint('none')">
+        <div class="about-card" onclick="stopPropagation(event)" id="imprint-card-content">
+        </div>
+    </div>
+</body>
+
+</html>

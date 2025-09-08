@@ -1,0 +1,95 @@
+/* ########################################## For Mobiles ########################### */
+@media (max-width: 1050px){  
+    .header-right-and-middle, .header-right, .header-maxwidth{
+        gap: 50px;
+    } 
+    .logo{
+        margin-left: 10px;
+    }
+    .type-header{
+        transform: translateX(60px);
+    }
+
+}   
+@media (max-width: 850px){  
+    .header-right-and-middle, .header-middle, .header-right{
+        flex-direction: column;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .header-right-and-middle{
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        background-color: rgba(76, 61, 124, 0.9);
+        gap: 50px;
+        justify-content: center;
+        transform: translateX(100vw);
+        transition: all 225ms ease-in-out;
+    }
+    .ready-header{
+        display: none;
+    }
+    .search-input input, .goto input{
+        width: 150px;
+        height: 50px;
+    }
+    .type-header{
+        opacity: 0;
+    }
+    .goto{
+        justify-content: center;
+    }
+    .star-header{
+        position: absolute;
+        right: 23%;
+        top: 24px;
+    }
+    .loaded-box{
+        font-size: 2.5em;
+    }
+   .header-box{
+    justify-content: flex-start;
+   } 
+}  
+@media (max-width: 600px){  
+    .ball-box-start, .start-line, .pokemone-start-imagebox{
+        display: none;
+    }
+    .start-screen-text{
+        left: 20%;
+        top: 50%;
+        transform: translate(0, 0);
+        font-size: 32px;
+    }
+}
+@media (max-width: 550px){  
+    .logo{
+        font-size: 72px;
+    }
+    .ball-box-header img{
+    width: 40px;
+    }
+    .burger-menu{
+        right: 10px;
+    }
+}
+@media (max-width: 450px){  
+    .logo{
+        font-size: 60px;
+        margin-right: 10px;
+    }
+    .ball-box-header img{
+        width: 35px;
+    }
+    .star-header{
+        right: 25%;
+    }
+}
+@media (max-width: 380px){ 
+    .logo{
+        font-size: 45px;
+    } 
+}

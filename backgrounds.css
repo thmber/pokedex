@@ -1,0 +1,400 @@
+.fire,
+.fire-lighter:hover {
+    background-color: rgba(264, 83, 90, 0.9);
+}
+.fire-lighter {
+    background-color: rgba(252, 146, 153, 0.9);
+}
+.bg-img-fire {
+    background-image: url(img/fire.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+.bg-closeup-fire {
+    background-image: url(img/fire.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+.grass,
+.grass-lighter:hover {
+    background-color: rgba(87, 215, 190, 0.9);
+}
+.grass-lighter {
+    background-color: rgba(148, 255, 234, 0.9);
+}
+.bg-img-grass {
+    background-image: url(img/grass.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+.bg-closeup-grass {
+    background-image: url(img/grass.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.water,
+.water-lighter:hover {
+    background-color: rgba(96, 178, 236, 0.9);
+}
+
+.water-lighter {
+    background-color: rgba(174, 221, 255, 0.9);
+}
+
+.bg-img-water {
+    background-image: url(img/water.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-water {
+    background-image: url(img/water.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.bug,
+.bug-lighter:hover {
+    background-color: rgba(175, 58, 242, 0.9);
+}
+
+.bug-lighter {
+    background-color: rgba(209, 131, 255, 0.9);
+}
+
+.bg-img-bug {
+    background-image: url(img/bug.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-bug {
+    background-image: url(img/bug.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.normal,
+.normal-lighter:hover {
+    background-color: rgba(255, 221, 3, 0.9);
+    color: rgb(201, 198, 198) !important;
+}
+
+.normal-lighter {
+    background-color: rgba(252, 245, 115, 0.9);
+    box-shadow: 1px 1px 1px 1px rgba(121, 118, 118, 0.1) !important;
+    color: rgb(201, 198, 198) !important;
+}
+
+.bg-img-normal {
+    background-image: url(img/normal.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-normal {
+    background-image: url(img/normal.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.poison,
+.poison-lighter:hover {
+    background-color: rgba(101, 58, 242, 0.9);
+}
+
+.poison-lighter {
+    background-color: rgba(148, 121, 238, 0.9);
+}
+
+.bg-img-poison {
+    background-image: url(img/poison.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-poison {
+    background-image: url(img/poison.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.ground,
+.ground-lighter:hover {
+    background-color: rgba(195, 130, 0, 0.9);
+}
+
+.ground-lighter {
+    background-color: rgba(237, 195, 110, 0.9);
+}
+
+.bg-img-ground {
+    background-image: url(img/ground.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-ground {
+    background-image: url(img/ground.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.fairy,
+.fairy-lighter:hover {
+    background-color: rgba(255, 48, 200, 0.9);
+}
+
+.fairy-lighter {
+    background-color: rgba(255, 148, 227, 0.9);
+}
+
+.bg-img-fairy {
+    background-image: url(img/fairy.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-fairy {
+    background-image: url(img/fairy.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.electric,
+.electric-lighter:hover {
+    background-color: rgba(246, 127, 0, 0.9);
+}
+
+.electric-lighter {
+    background-color: rgba(252, 188, 98, 0.9);
+}
+
+.bg-img-electric {
+    background-image: url(img/electric.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-electric {
+    background-image: url(img/electric.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.flying,
+.flying-lighter:hover {
+    background-color: rgba(53, 228, 47, 0.9);
+}
+
+.flying-lighter {
+    background-color: rgba(121, 255, 130, 0.9);
+}
+
+.bg-img-flying {
+    background-image: url(img/flying.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-flying {
+    background-image: url(img/flying.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.psychic,
+.psychic-lighter:hover {
+    background-color: rgba(48, 148, 66, 0.9);
+}
+
+.psychic-lighter {
+    background-color: rgba(117, 201, 132, 0.9);
+}
+
+.bg-img-psychic {
+    background-image: url(img/psychic.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-psychic {
+    background-image: url(img/psychic.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.fighting,
+.fighting-lighter:hover {
+    background-color: rgba(190, 5, 2, 0.9);
+}
+
+.fighting-lighter {
+    background-color: rgba(192, 82, 81, 0.9);
+}
+
+.bg-img-fighting {
+    background-image: url(img/fighting.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-fighting {
+    background-image: url(img/fighting.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.steel,
+.steel-lighter:hover {
+    background-color: rgba(19, 107, 101, 0.9);
+}
+
+.steel-lighter {
+    background-color: rgba(128, 184, 180, 0.9);
+}
+
+.bg-img-steel {
+    background-image: url(img/steel.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-steel {
+    background-image: url(img/steel.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.ice,
+.ice-lighter:hover {
+    background-color: rgba(67, 92, 125, 0.9);
+}
+
+.ice-lighter {
+    background-color: rgba(158, 182, 214, 0.9);
+}
+
+.bg-img-ice {
+    background-image: url(img/ice.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-ice {
+    background-image: url(img/ice.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.dark,
+.dark-lighter:hover {
+    background-color: rgba(51, 42, 85, 0.9);
+}
+
+.dark-lighter {
+    background-color: rgba(82, 98, 119, 0.9);
+}
+
+.bg-img-dark {
+    background-image: url(img/dark.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-dark {
+    background-image: url(img/dark.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.ghost,
+.ghost-lighter:hover {
+    background-color: rgba(178, 161, 243, 0.593);
+}
+
+.ghost-lighter {
+    background-color: rgba(155, 171, 193, 0.9);
+}
+
+.bg-img-ghost {
+    background-image: url(img/ghost.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-ghost {
+    background-image: url(img/ghost.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.dragon,
+.dragon-lighter:hover {
+    background-color: rgba(188, 17, 80, 0.901);
+}
+
+.dragon-lighter {
+    background-color: rgba(250, 89, 116, 0.901);
+}
+
+.bg-img-dragon {
+    background-image: url(img/ghost.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-dragon {
+    background-image: url(img/ghost.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.rock,
+.rock-lighter:hover {
+    background-color: rgba(96, 88, 74, 0.901);
+}
+
+.rock-lighter {
+    background-color: rgba(151, 138, 114, 0.901);
+}
+
+.bg-img-rock {
+    background-image: url(img/rock.png);
+    background-size: 120%;
+    background-position: 150% 40%;
+}
+
+.bg-closeup-rock {
+    background-image: url(img/rock.png);
+    background-size: 110%;
+    background-position: 80% 16%;
+    background-repeat: no-repeat;
+}
+
+.bg-total-bar {
+    background-color: rgb(19, 7, 52);
+}
+
+.loading {
+    background-color: white;
+    color: rgb(73, 73, 73) !important;
+}
