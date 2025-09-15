@@ -19,7 +19,7 @@
 
 ## :notes: Live Demo
 
-Check out the live join: 
+Check out the live version: 
 [pokedex](https://thmahler.net/pokedex)
 
 ---
