@@ -18,6 +18,9 @@
     .burger-menu{
         display: flex;
     }
+    .header-maxwidth{
+        width: 95%;
+    }
     .header-right-and-middle{
         height: 100vh;
         width: 100vw;
@@ -28,6 +31,9 @@
         justify-content: center;
         transform: translateX(100vw);
         transition: all 225ms ease-in-out;
+    }
+    .logo{
+        font-size: 60px;
     }
     .ready-header{
         display: none;

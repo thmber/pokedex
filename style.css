@@ -757,7 +757,6 @@ body{
 .moves span:nth-last-child(1), .moves span:nth-last-child(2), .moves span:nth-last-child(3){
     flex-grow: 0;
 }
-
 /*#################### hearts ############################ */
 
 .heart-container{
