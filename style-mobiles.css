@@ -7,9 +7,8 @@
         margin-left: 10px;
     }
     .type-header{
-        transform: translateX(60px);
+        transform: translateX(500px);
     }
-
 }   
 @media (max-width: 850px){  
     .header-right-and-middle, .header-middle, .header-right{
@@ -43,7 +42,7 @@
         height: 50px;
     }
     .type-header{
-        opacity: 0;
+        transform: translateX(250px) scale(0.8);
     }
     .goto{
         justify-content: center;
@@ -60,9 +59,29 @@
     justify-content: flex-start;
    } 
 }  
+@media (max-width: 700px){  
+     .type-header{
+        transform: translateX(220px) scale(0.6);
+    }
+    .logo{
+        font-size: 45px;
+        margin-right: 15px;
+    }
+    .ball-box-header img{
+        width: 45px;
+    }
+}
 @media (max-width: 600px){  
     .ball-box-start, .start-line, .pokemone-start-imagebox{
         display: none;
+    }
+    .type-header{
+        transform: translateX(150px) scale(0.5);
+        width: 160px;
+    }
+    .logo{
+        font-size: 30px;
+        margin-right: 15px;
     }
     .start-screen-text{
         left: 20%;
@@ -70,32 +89,26 @@
         transform: translate(0, 0);
         font-size: 32px;
     }
+
 }
-@media (max-width: 550px){  
-    .logo{
-        font-size: 72px;
-    }
-    .ball-box-header img{
-    width: 40px;
-    }
+@media (max-width: 500px){ 
     .burger-menu{
+        transform: scale(0.8);
         right: 10px;
-    }
-}
-@media (max-width: 450px){  
-    .logo{
-        font-size: 60px;
-        margin-right: 10px;
-    }
-    .ball-box-header img{
-        width: 35px;
+        top: 20px;
     }
     .star-header{
-        right: 25%;
+        transform: scale(0.8);
+        right: 20%;
+        top: 20px;
     }
-}
-@media (max-width: 380px){ 
     .logo{
-        font-size: 45px;
-    } 
+        display: none;
+    }
+    .type-header{
+        transform: translateX(50px) scale(0.5);
+    }
+    .ball-box-header{
+        margin-left: 15px;
+    }
 }
