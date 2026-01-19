@@ -371,7 +371,7 @@ body{
     padding-right: 6px;
     padding-top: 3px;
     padding-bottom: 3px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.15);
 }
 .type-icon img{
     width: 20px;
@@ -391,6 +391,9 @@ body{
     opacity: 0.2;
     transform: translateX(-5px) translateY(-5px) scale(2.6);
     
+}
+.type-small:hover{
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.15);
 }
 
 
